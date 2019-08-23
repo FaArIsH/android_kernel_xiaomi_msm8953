@@ -292,7 +292,7 @@ config your key info here */
 #define GTP_I2C_NAME		"goodix-ts"
 #define GT91XX_CONFIG_PROC_FILE	"gt9xx_config"
 #define GT9XX_LOCKDOWN_PROC_FILE	"lockdown_info"
-#define GT9XX_WAKEUP_GESTURE_PROC	"wakeup_gesture"
+#define GT9XX_WAKEUP_GESTURE_PROC	"gesture_enable"
 #define GTP_POLL_TIME		10
 #define GTP_CONFIG_MIN_LENGTH	186
 #define GTP_ESD_CHECK_VALUE	0xAA
