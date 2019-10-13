@@ -18,16 +18,8 @@
 		android {
 			/delete-node/ vbmeta;
 			fstab {
-				system {
-					compatible = "android,system";
-					dev = "/dev/block/platform/soc/7824900.sdhci/by-name/system";
-					type = "ext4";
-					mnt_flags = "ro,barrier=1,discard";
-					fsmgr_flags = "wait,slotselect";
-					status = "disable";
-				};
 				vendor {
-					fsmgr_flags = "wait,verify,slotselect";
+					fsmgr_flags = "wait";
 				};
 			};
 		};
